@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6d1027d5d2a2239240f5ad4ee76ad0f6",
+    "content-hash": "e965c01a2bbc00d765ee649c8d31e21a",
     "packages": [
         {
             "name": "fig/http-message-util",
@@ -1204,28 +1204,28 @@
         },
         {
             "name": "stripe/stripe-php",
-            "version": "v17.4.0",
+            "version": "v22.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stripe/stripe-php.git",
-                "reference": "893946057e43b145826b0dfd7f398673e381e2ae"
+                "reference": "4acff32c29243bb716c54ecec78b5ecb729ce2be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/893946057e43b145826b0dfd7f398673e381e2ae",
-                "reference": "893946057e43b145826b0dfd7f398673e381e2ae",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/4acff32c29243bb716c54ecec78b5ecb729ce2be",
+                "reference": "4acff32c29243bb716c54ecec78b5ecb729ce2be",
                 "shasum": ""
             },
             "require": {
                 "ext-curl": "*",
                 "ext-json": "*",
                 "ext-mbstring": "*",
-                "php": ">=5.6.0"
+                "php": ">=7.4.0"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "3.72.0",
+                "friendsofphp/php-cs-fixer": "3.94.0",
                 "phpstan/phpstan": "^1.2",
-                "phpunit/phpunit": "^5.7 || ^9.0"
+                "phpunit/phpunit": "^8.0 || ^9.0"
             },
             "type": "library",
             "extra": {
@@ -1234,6 +1234,9 @@
                 }
             },
             "autoload": {
+                "files": [
+                    "lib/version_check.php"
+                ],
                 "psr-4": {
                     "Stripe\\": "lib/"
                 }
@@ -1257,9 +1260,9 @@
             ],
             "support": {
                 "issues": "https://github.com/stripe/stripe-php/issues",
-                "source": "https://github.com/stripe/stripe-php/tree/v17.4.0"
+                "source": "https://github.com/stripe/stripe-php/tree/v22.0.1"
             },
-            "time": "2025-07-01T20:23:15+00:00"
+            "time": "2026-10-27T18:18:59+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -4049,5 +4052,5 @@
         "ext-json": "*"
     },
     "platform-dev": {},
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.9.0"
 }
